@@ -162,6 +162,10 @@
             margin-bottom: 0;
         }
 
+        .original-question-item {
+            background-color: #fff5e6; /* Subtle orange for original questions */
+        }
+
         .notes-area {
             width: 100%;
             min-height: 60px;
@@ -278,7 +282,7 @@
                 </div>
                 <div class="questions-container" id="data-strategy">
                     <div class="question-group">
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level opening">Opening</span>
                             <div class="question-text">What are the characteristics of a Data Warehouse - what makes it different from another type of database?</div>
                             <div class="question-competencies">
@@ -287,7 +291,7 @@
                             </div>
                             <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
                         </div>
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level lighter">Lighter</span>
                             <div class="question-text">What do people typically do with data before attempting analytics?</div>
                             <div class="question-competencies">
@@ -295,13 +299,71 @@
                             </div>
                             <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
                         </div>
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level heavier">Heavier</span>
-                            <div class="question-text">Discuss the trade-offs inherent in the CAP theorem.</div>
+                            <div class="question-text">Describe a time when you’ve been responsible for implementing a data strategy to support an analytics project… Given recent technology changes, would you approach the project differently if you could repeat it now?</div>
                             <div class="question-competencies">
                                 <span class="competency-tag solutioning">Solutioning</span>
-                                <span class="competency-tag risk">Risk Mitigation</span>
                                 <span class="competency-tag business">Knowing Your Business</span>
+                                <span class="competency-tag risk">Risk Mitigation</span>
+                                <span class="competency-tag project">Project Management</span>
+                                <span class="competency-tag communication">Customer Communication</span>
+                            </div>
+                            <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-header" onclick="toggleCategory('databases')">
+                    <h2 class="category-title">2. Databases</h2>
+                    <button class="toggle-btn">Show Questions</button>
+                </div>
+                <div class="questions-container" id="databases">
+                    <div class="question-group">
+                        <div class="question-item original-question-item">
+                            <span class="question-level opening">Opening</span>
+                            <div class="question-text">Provide an example of unstructured data and describe the challenges it creates for analytics.</div>
+                            <div class="question-competencies">
+                                <span class="competency-tag solutioning">Solutioning</span>
+                                <span class="competency-tag business">Knowing Your Business</span>
+                            </div>
+                            <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
+                        </div>
+                        <div class="question-item original-question-item">
+                            <span class="question-level lighter">Lighter</span>
+                            <div class="question-text">What are the advantages of working with a database compared to data stored in file format?</div>
+                            <div class="question-competencies">
+                                <span class="competency-tag solutioning">Solutioning</span>
+                            </div>
+                            <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
+                        </div>
+                        <div class="question-item original-question-item">
+                            <span class="question-level heavier">Heavier</span>
+                            <div class="question-text">Can you describe the current state of the competitive market for database technologies?</div>
+                            <div class="question-competencies">
+                                <span class="competency-tag business">Knowing Your Business</span>
+                                <span class="competency-tag solutioning">Solutioning</span>
+                            </div>
+                            <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
+                        </div>
+                    </div>
+                    <div class="question-group">
+                        <div class="question-item">
+                            <span class="question-level opening">Opening</span>
+                            <div class="question-text">When would you choose a NoSQL database over a relational database for an analytics application, and why?</div>
+                            <div class="question-competencies">
+                                <span class="competency-tag solutioning">Solutioning</span>
+                                <span class="competency-tag business">Knowing Your Business</span>
+                            </div>
+                            <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
+                        </div>
+                        <div class="question-item">
+                            <span class="question-level lighter">Lighter</span>
+                            <div class="question-text">What is data normalization, and why is it important?</div>
+                            <div class="question-competencies">
+                                <span class="competency-tag solutioning">Solutioning</span>
                             </div>
                             <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
                         </div>
@@ -372,7 +434,7 @@
                 </div>
                 <div class="questions-container" id="coding">
                     <div class="question-group">
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level opening">Opening</span>
                             <div class="question-text">What is your level of comfort with SQL, Python, R, Javascript or other scripting/coding languages?</div>
                             <div class="question-competencies">
@@ -380,7 +442,7 @@
                             </div>
                             <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
                         </div>
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level lighter">Lighter</span>
                             <div class="question-text">What is an API and why would you use it?</div>
                             <div class="question-competencies">
@@ -389,7 +451,7 @@
                             </div>
                             <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
                         </div>
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level heavier">Heavier</span>
                             <div class="question-text">Describe a (data) project that you delivered using scripts or code - what problem did you solve, why did you do it that way?</div>
                             <div class="question-competencies">
@@ -440,7 +502,7 @@
                 </div>
                 <div class="questions-container" id="organizations">
                     <div class="question-group">
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level opening">Opening</span>
                             <div class="question-text">Does responsibility for Analytics sit within the IT or the Business side of an organisation?</div>
                             <div class="question-competencies">
@@ -449,7 +511,7 @@
                             </div>
                             <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
                         </div>
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level lighter">Lighter</span>
                             <div class="question-text">Can you describe the ideal sales cycle for an analytics solution? On the customer side, who makes the purchase and why?</div>
                             <div class="question-competencies">
@@ -458,7 +520,7 @@
                             </div>
                             <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
                         </div>
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level heavier">Heavier</span>
                             <div class="question-text">Can you describe different strategies we might use that lead to successful purchase and adoption of analytics technology by a customer?</div>
                             <div class="question-competencies">
@@ -513,7 +575,7 @@
                 </div>
                 <div class="questions-container" id="security">
                     <div class="question-group">
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level opening">Opening</span>
                             <div class="question-text">Describe one or two methods of applying security to data.</div>
                             <div class="question-competencies">
@@ -522,7 +584,7 @@
                             </div>
                             <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
                         </div>
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level lighter">Lighter</span>
                             <div class="question-text">Can you explain the difference between authentication and authorization?</div>
                             <div class="question-competencies">
@@ -531,7 +593,7 @@
                             </div>
                             <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
                         </div>
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level heavier">Heavier</span>
                             <div class="question-text">What type of questions would a customer's Head of Security ask before allowing their sensitive data to be accessed by our technology?</div>
                             <div class="question-competencies">
@@ -584,7 +646,7 @@
                 </div>
                 <div class="questions-container" id="cloud">
                     <div class="question-group">
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level opening">Opening</span>
                             <div class="question-text">What deployment options are available for the Tableau platform - is it available in cloud, can it be deployed on-premise? What about SaaS?</div>
                             <div class="question-competencies">
@@ -593,7 +655,7 @@
                             </div>
                             <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
                         </div>
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level lighter">Lighter</span>
                             <div class="question-text">What are the advantages/disadvantages of deploying analytics software in the cloud?</div>
                             <div class="question-competencies">
@@ -603,7 +665,7 @@
                             </div>
                             <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
                         </div>
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level heavier">Heavier</span>
                             <div class="question-text">Can you describe the current state of play in the cloud computing industry - who are the major players and why do customers choose one or another?</div>
                             <div class="question-competencies">
@@ -654,7 +716,7 @@
                 </div>
                 <div class="questions-container" id="visualization">
                     <div class="question-group">
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level opening">Opening</span>
                             <div class="question-text">What is the role of visual perception and psychology in data visualisation?</div>
                             <div class="question-competencies">
@@ -663,7 +725,7 @@
                             </div>
                             <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
                         </div>
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level lighter">Lighter</span>
                             <div class="question-text">Please describe good or bad examples of data visualisation.</div>
                             <div class="question-competencies">
@@ -672,7 +734,7 @@
                             </div>
                             <textarea class="notes-area" placeholder="Quick notes for this question..."></textarea>
                         </div>
-                        <div class="question-item">
+                        <div class="question-item original-question-item">
                             <span class="question-level heavier">Heavier</span>
                             <div class="question-text">How would you plan an enablement session for a group of finance analysts that have only ever worked with spreadsheets, persuading them to visualise data?</div>
                             <div class="question-competencies">
